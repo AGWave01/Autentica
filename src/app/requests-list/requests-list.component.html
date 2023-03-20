@@ -1,0 +1,16 @@
+<div *ngFor="let request of request">
+    <h3>{{ request.type }}</h3>
+    <p>Quantity: {{ request.quantity }}</p>
+    <p>Requirements: {{ request.requirements }}</p>
+  </div>
+  <h1>List of Requests</h1>
+  <div *ngFor="let request of request">
+    <ul>
+      <li>Type: {{ request.type }}</li>
+      <li>Quantity: {{ request.quantity }}</li>
+      <li>Requirements: {{ request.requirements }}</li>
+    </ul>
+  </div>
+  
+  
+  

@@ -1,0 +1,16 @@
+<form (ngSubmit)="onSubmit()" #requestForm="ngForm">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="requestData.name" required>
+    </div>
+  
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" [(ngModel)]="requestData.email" required>
+    </div>
+  
+    <!-- Add more form elements as needed -->
+    
+    <button type="submit">Submit</button>
+  </form>
+  
